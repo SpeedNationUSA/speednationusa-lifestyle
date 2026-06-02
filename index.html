@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lifestyle Photography | Book a Session</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: white;
+    }
+
+    /* HERO */
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      background: radial-gradient(circle at center, #1a1a1a, #000);
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      margin: 0;
+    }
+
+    .hero p {
+      max-width: 600px;
+      opacity: 0.85;
+      margin-top: 10px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 14px 22px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    /* SERVICES */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #222;
+    }
+
+    /* GALLERY */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    /* BOOKING */
+    .booking {
+      text-align: center;
+      background: #111;
+      padding: 70px 20px;
+    }
+
+    .note {
+      opacity: 0.8;
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Lifestyle Photography</h1>
+    <p>Wedding, couples, portraits, and lifestyle sessions captured with a clean, cinematic style.</p>
+    <a class="btn" href="#book">Book a Session</a>
+  </div>
+
+  <!-- SERVICES -->
+  <section>
+    <h2>Sessions</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Weddings</h3>
+        <p>Cinematic storytelling coverage for your full wedding day or selected events.</p>
+      </div>
+
+      <div class="card">
+        <h3>Couples</h3>
+        <p>Natural, emotional sessions focused on connection and storytelling.</p>
+      </div>
+
+      <div class="card">
+        <h3>Portraits</h3>
+        <p>Clean, styled portraits for personal branding or creative expression.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section>
+    <h2>Featured Work</h2>
+
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e">
+      <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1">
+      <img src="https://images.unsplash.com/photo-1521337581100-8ca9a73a5f79">
+      <img src="https://images.unsplash.com/photo-1519741497674-611481863552">
+      <img src="https://images.unsplash.com/photo-1529634892560-3a3f0a0d8c2c">
+      <img src="https://images.unsplash.com/photo-1521337706264-a414f153a5d4">
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="book" class="booking">
+    <h2>Book Your Session</h2>
+
+    <p class="note">
+      All sessions require a 50% deposit to secure your date. Availability is limited to ensure quality and attention to each client.
+    </p>
+
+    <br>
+
+    <p class="note">
+      Please include your desired session type, location, and preferred dates when reaching out.
+    </p>
+
+    <br>
+
+    <a class="btn" href="mailto:your@email.com?subject=Lifestyle%20Photography%20Inquiry">
+      Request Booking
+    </a>
+  </section>
+
+  <footer>
+    © 2026 Lifestyle Photography
+  </footer>
+
+</body>
+</html>
